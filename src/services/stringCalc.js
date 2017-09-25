@@ -112,7 +112,7 @@ function calculateExpression(operator, num1, num2) {
  * @param statement
  * @returns {{value: *, errorMessage: Array}}
  */
-export const calculate = statement => {
+const calculate = statement => {
     let a, b, tmpString, errorMessage = [];
     const stack = [];
     const formattedString = formatToReversePolandStatement(statement);
@@ -156,3 +156,5 @@ export const calculate = statement => {
         errorMessage
     }
 };
+
+export default calculate;

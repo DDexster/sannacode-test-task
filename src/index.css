@@ -1,11 +1,29 @@
 body {
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
 }
 
 .App {
-  width: 100%;
-  max-width: 350px;
-  margin: 100px auto;
+    border: 1px solid #DEDEDE;
+    border-radius: 5px;
+    padding: 8px;
+    width: 100%;
+    max-width: 350px;
+    margin: 100px auto;
 }
+
+.ui.fluid.input {
+    margin-bottom: 10px;
+}
+
+.ui.disabled.input {
+    opacity: 1;
+}
+
+.ui.fluid.button {
+    margin-top: 8px;
+}
+
+
+
